@@ -170,7 +170,7 @@ restore(char *file, char **envp)
     int lines, cols;
 
     if (strcmp(file, "-r") == 0)
-	file = file_name;
+	    file = file_name;
 
 	md_tstphold();
 

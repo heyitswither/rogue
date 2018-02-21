@@ -23,10 +23,10 @@ PROGRAM=@PROGRAM@
 O=o
 
 #CC=gcc
-CC    = @CC@
+CC    = gcc
 
 #CFLAGS=-O2
-CFLAGS= @CFLAGS@ 
+CFLAGS= -g -O2 -Wall -Werror -std=gnu99
 
 #LIBS=-lcurses
 LIBS =	@LIBS@
